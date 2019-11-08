@@ -1,0 +1,295 @@
+body{
+	margin: 0px; 
+}
+
+.image-carte {
+	width: 300px;
+	height: 300px;
+}
+
+.nav-link {
+	margin: 0 30px;
+    text-decoration: none;
+    color: black;
+}
+.premiere_page {
+	background-image:url("images/fond.jpg");
+	width: 100%;
+	height: 800px;
+}
+nav {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	position: sticky; 
+	top: 0;
+	margin: 0 30px;
+    text-decoration: none;
+    color: black;
+
+}
+h1 
+{
+	font-family: 'Francois One', sans-serif;
+	text-align: center;
+}
+
+p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+}
+
+.center {
+	text-align: center;
+}
+.right {
+	text-align: right;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	}
+.left {
+	text-align: left;
+}
+
+.margin {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+.margin_bas {
+	margin-bottom: 60px;
+}
+.logo {
+	width: 10%;
+	height: 10%;
+	padding: 35px 0px 0px 0px;
+}
+
+.image-contact {
+	width: 70px;
+	height: 70px;
+}
+.image-concept {
+	width: 692px;
+	height: 499px;	
+}
+
+.image-etre {
+	width: 100%;
+	height: 100%;	
+}
+
+.boite1 {
+	display: flex;
+}
+
+.boite2 {
+	display: flex;
+}
+
+.flex {
+	display: flex;
+    width: auto;
+    text-align: center;
+    justify-content: center;
+}
+.flex2 {
+	display: flex;
+    width: auto;
+    justify-content: space-between;
+}
+.flex-around {
+	display: flex;
+    width: auto;
+    text-align: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.colonne2 {
+	padding-top: 9%;
+    flex: 1;
+    align-self: stretch;
+    line-height: 30px;
+    margin: 0;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.colonne1 {
+	align-self: stretch;
+	flex: 1;
+	width: 50%;
+	height: 100%;
+}
+
+.colonne3 {
+	padding: 120px 28px;
+    flex: 1;
+    align-self: stretch;
+    line-height: 30px;
+    margin: 0;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.colonne4 {
+	align-self: stretch;
+	flex: 1;
+	background-image: url("images/notre_concept.jpg");
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+}
+
+.footer {
+	width: 100%;
+	background-color: black;
+	margin-top: 100px;
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	color: white ; 
+}
+
+.article {
+	text-decoration: none;
+}
+.link {
+	    color: white ;
+}
+
+.police {
+	font-family: 'Dosis', sans-serif;;}
+
+@media (max-width: 960px) {
+	.footer {
+		width: 60%;
+	}
+	.colonne1 {
+		width: 60%;
+	}
+	.colonne2 {
+		width: 60%;
+	}
+	.colonne3 {
+		width: 60%;
+	}
+	.colonne4 {
+		width: 60%;
+	}
+	.logo {
+		width: 60%;
+	}
+	.flex-around {
+		width: 60%;
+	}
+	.footer {
+		width: 100%
+	}
+}
+
+@media (max-width: 720px) {
+	.footer {
+		width: 70%;
+	}
+	.colonne1 {
+		width: 70%;
+	}
+	.colonne2 {
+		width: 70%;
+	}
+	.colonne3 {
+		width: 90%;
+	}
+	.colonne4 {
+		width: 70%;
+	}
+	.logo {
+		width: 70%;
+	}
+	.flex-around {
+		width: 60%;
+	}
+	.footer {
+		width: 100%
+	}
+
+@media (max-width: 500px) {
+	.footer {
+		width: 80%;
+	}
+	.colonne1 {
+		width: 80%;
+	}
+	.colonne2 {
+		width: 80%;
+	}
+	.colonne3 {
+		width: 80%;
+	}
+	.colonne4 {
+		width: 80%;
+	}
+	.logo {
+		width: 80%;
+	}
+	.flex-around {
+		width: 60%;
+	}
+	.footer {
+		width: 100%
+	}
+
+@media (max-width: 450px) {
+	.footer {
+		width: 90%;
+	}
+	.colonne1 {
+		width: 90%;
+	}
+	.colonne2 {
+		width: 90%;
+	}
+	.colonne3 {
+		width: 90%;
+	}
+	.colonne4 {
+		width: 90%;
+	}
+	.logo {
+		width: 90%;
+	}
+	.flex-around {
+		width: 90%;
+	}
+	.footer {
+		width: 100%
+	}
+
+@media (max-width: 350px) {
+	.footer {
+		width: 100%;
+	}
+	.colonne1 {
+		width: 100%;
+	}
+	.colonne2 {
+		width: 100%;
+	}
+	.colonne3 {
+		width: 100%;
+	}
+	.colonne4 {
+		width: 100%;
+	}
+	.logo {
+		width: 100%;
+	}
+	.flex-around {
+		width: 100%;
+	}
+	.footer {
+		width: 100%
+	}
